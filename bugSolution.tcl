@@ -1,0 +1,1 @@
+proc goodproc {a b} { puts "$a $b"; return [expr {$a + $b}] } puts [goodproc 10 20] 
